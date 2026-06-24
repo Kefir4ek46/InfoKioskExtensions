@@ -1,0 +1,88 @@
+/* plugins/minesweeper/view.css — стили сапёра. */
+
+.ms-game {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 16px;
+}
+
+.ms-stats {
+  display: flex;
+  gap: 24px;
+  font-size: 18px;
+}
+.ms-stat span { color: var(--text-muted); margin-right: 6px; }
+.ms-stat strong { color: var(--accent); font-size: 22px; }
+
+.ms-grid-wrap {
+  position: relative;
+  display: inline-block;
+}
+.ms-grid {
+  display: grid;
+  gap: 2px;
+  background: var(--surface);
+  padding: 4px;
+  border-radius: var(--radius-sm);
+  touch-action: manipulation;
+}
+.ms-cell {
+  background: var(--button);
+  border: 1px solid var(--border);
+  border-radius: 3px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 700;
+  font-size: 16px;
+  cursor: pointer;
+  user-select: none;
+  transition: all 0.1s ease-out;
+}
+.ms-cell:hover { background: var(--button-hover, var(--button)); }
+.ms-cell:active { transform: scale(0.92); }
+.ms-cell.ms-revealed {
+  background: var(--surface);
+  cursor: default;
+}
+.ms-cell.ms-revealed:hover { background: var(--surface); }
+.ms-cell.ms-mine {
+  background: rgba(220, 53, 69, 0.3);
+  font-size: 20px;
+}
+.ms-cell.ms-flagged {
+  font-size: 18px;
+}
+
+.ms-overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(15, 19, 28, 0.88);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(4px);
+  border-radius: var(--radius-sm);
+}
+.ms-overlay-content { text-align: center; padding: 20px; }
+.ms-overlay-msg {
+  font-size: 16px;
+  color: var(--text);
+  margin-bottom: 16px;
+}
+.ms-start-btn {
+  padding: 12px 28px;
+  font-size: 16px;
+  background: var(--accent);
+  color: #fff;
+  border: none;
+  border-radius: var(--radius-sm);
+  cursor: pointer;
+}
+.ms-start-btn:hover { transform: scale(1.05); }
+
+.ms-controls {
+  display: flex;
+  gap: 12px;
+}

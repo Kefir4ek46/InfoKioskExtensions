@@ -1,0 +1,17 @@
+{
+  "id": "wordle",
+  "name": "Вордли",
+  "icon": "🔤",
+  "version": "1.0.0",
+  "author": "InfoKiosk",
+  "description": "Угадайте слово за 6 попыток. Зелёная буква — на своём месте, жёлтая — есть в слове, но в другом месте. Слова — существительные, 5 букв.",
+  "category": "game",
+  "order": 130,
+  "defaultPosition": "end",
+  "showInSidebar": false,
+  "showInMore": true,
+  "blockDuringLesson": false,
+  "needsBackend": false,
+  "hasSettings": false,
+  "settingsFields": []
+}

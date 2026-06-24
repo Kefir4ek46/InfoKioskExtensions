@@ -1,0 +1,29 @@
+{
+  "id": "minesweeper",
+  "name": "Сапёр",
+  "icon": "💣",
+  "version": "1.0.0",
+  "author": "InfoKiosk",
+  "description": "Классический сапёр. Открывайте клетки, избегайте мин, отмечайте флажками подозрительные. Цифры показывают количество мин вокруг.",
+  "category": "game",
+  "order": 115,
+  "defaultPosition": "end",
+  "showInSidebar": false,
+  "showInMore": true,
+  "blockDuringLesson": true,
+  "needsBackend": false,
+  "hasSettings": true,
+  "settingsFields": [
+    {
+      "key": "difficulty",
+      "label": "Сложность",
+      "type": "select",
+      "default": "medium",
+      "options": [
+        { "value": "easy",   "label": "Лёгкий (9×9, 10 мин)" },
+        { "value": "medium", "label": "Средний (16×16, 40 мин)" },
+        { "value": "hard",   "label": "Сложный (22×16, 70 мин)" }
+      ]
+    }
+  ]
+}
