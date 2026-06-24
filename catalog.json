@@ -4,7 +4,7 @@
     "name": "Змейка",
     "icon": "🐍",
     "description": "Классическая игра «Змейка»",
-    "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions",
+    "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions/snake",
     "subpath": "snake",
     "version": "1.0.0"
   },
@@ -14,7 +14,7 @@
     "name": "Математический квиз",
     "icon": "🔢",
     "description": "Решение примеров",
-    "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions",
+    "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions/math-quiz",
     "subpath": "math-quiz",
     "version": "1.0.0"
   },
@@ -24,7 +24,7 @@
     "name": "Вордли",
     "icon": "🔤",
     "description": "Удагывание слов",
-    "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions",
+    "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions/wordle",
     "subpath": "wordle",
     "version": "1.0.0"
   },
@@ -34,7 +34,7 @@
     "name": "Сапер",
     "icon": "🚩",
     "description": "Сапер",
-    "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions",
+    "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions/minesweeper",
     "subpath": "minesweeper",
     "version": "1.0.0"
   }
