@@ -7,7 +7,8 @@
     "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions",
     "subpath": "snake",
     "version": "1.0.0"
-  }
+  },
+
   {
     "id": "math-quiz",
     "name": "Математический квиз",
@@ -16,7 +17,8 @@
     "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions",
     "subpath": "math-quiz",
     "version": "1.0.0"
-  }
+  },
+
   {
     "id": "wordle",
     "name": "Вордли",
@@ -25,7 +27,8 @@
     "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions",
     "subpath": "wordle",
     "version": "1.0.0"
-  }
+  },
+
   {
     "id": "minesweeper",
     "name": "Сапер",
