@@ -1,0 +1,38 @@
+[
+  {
+    "id": "snake",
+    "name": "Змейка",
+    "icon": "🐍",
+    "description": "Классическая игра «Змейка»",
+    "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions",
+    "subpath": "snake",
+    "version": "1.0.0"
+  }
+  {
+    "id": "math-quiz",
+    "name": "Математический квиз",
+    "icon": "🔢",
+    "description": "Решение примеров",
+    "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions",
+    "subpath": "math-quiz",
+    "version": "1.0.0"
+  }
+  {
+    "id": "wordle",
+    "name": "Вордли",
+    "icon": "🔤",
+    "description": "Удагывание слов",
+    "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions",
+    "subpath": "wordle",
+    "version": "1.0.0"
+  }
+  {
+    "id": "minesweeper",
+    "name": "Сапер",
+    "icon": "🚩",
+    "description": "Сапер",
+    "repo": "https://github.com/Kefir4ek46/InfoKioskExtensions",
+    "subpath": "minesweeper",
+    "version": "1.0.0"
+  }
+]
